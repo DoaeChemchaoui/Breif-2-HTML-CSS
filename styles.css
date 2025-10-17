@@ -1,0 +1,117 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f7f8fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: 
+    url('img/log.jpg'); 
+  background-position:  center center;
+    background-size: cover;
+
+}
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+nav .logo img {
+  height: 40px;
+  margin-left: 80px;
+}
+
+nav .nav-links a {
+
+  padding: 12px 25px;
+  background-color: transparent; 
+  color: #fff; 
+  text-decoration: none;
+  border: 1px solid #fff;
+  border-radius: 50px;
+}
+
+nav .nav-links a:hover {
+  color: #007BFF;
+}
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  background-color: #c3b9cd;
+  padding: 40px;
+  width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 25px;
+  font-size: 24px;
+  color: #333;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+
+}
+
+label {
+  font-size: 14px;
+  color: #555;
+}
+
+input {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.btn {
+  background-color: #610a90;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 15px;
+  
+}
+
+.btn:hover {
+  background-color: #000000;
+}
+
+.btn a {
+  color: white;
+  text-decoration: none;
+}
+
+.link {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.link a {
+  color: #610a90;
+  text-decoration: none;
+}
+

@@ -28,6 +28,7 @@ nav .nav-links a {
   font-weight: 500;
 }
 
+
 nav .nav-links a:hover {
   color: #007BFF;
 }
@@ -404,7 +405,7 @@ body{
 
 
 .footer {
-  background-color: #242565; /* Bleu foncé */
+  background-color: #0A075F;
   color: white;
   padding: 60px 80px;
   font-family: "Poppins", sans-serif;
@@ -488,7 +489,7 @@ body{
 .foot {
   text-align: center;
   padding: 30px 20px;
-  background-color: #242565;
+  background-color: #0A075F;
   color: white;
   font-size: 13px;
 }

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inscription</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <img src="img/logo.png" alt="logo-festava">
+    </div>
+    <div class="nav-links">
+      <a href="login.html">Login</a>
+      <a href="signup.html">Signup</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <main class="card">
+      <h1 class="title">Créer un compte</h1>
+      
+      <form class="form" action="login.html" method="get">
+        <div class="form-group">
+          <label for="name">Nom complet</label>
+          <input id="name" name="name" type="text" required placeholder="Nom et prénom">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Adresse email</label>
+          <input id="email" name="email" type="email" required placeholder="votre@mail.com">
+        </div>
+
+        <div class="form-group">
+          <label for="password">Mot de passe</label>
+          <input id="password" name="password" type="password" required placeholder="••••••••">
+        </div>
+
+        <div class="form-group">
+          <label for="confirm">Confirmer le mot de passe</label>
+          <input id="confirm" name="confirm" type="password" required placeholder="••••••••">
+        </div>
+
+        <button type="submit" class="btn">S'inscrire</button>
+      </form>
+
+      <p class="link">
+        Vous avez déjà un compte ? <a href="login.html">Se connecter</a>
+      </p>
+    </main>
+  </div>
+</body>
+</html>
